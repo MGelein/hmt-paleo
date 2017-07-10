@@ -3,7 +3,7 @@ During the first sessions of the HMT project I found the counting of readings an
 created
 
 ## Use The Site
-You can view the live version of this website [here](www.interwing.nl/hmt/paleo/)
+You can view the live version of this website [here](http://www.interwing.nl/hmt/paleo/)
 
 The instructions can be found on the website, but in short:
 - Copy the .cex contents from your file in your repo
