@@ -13,6 +13,15 @@ body{
 
 }
 
+
+#backButtonHolder{
+  position: absolute; /* Stay in place */
+  margin: 1em;
+  z-index: 2; /* Sit on top */
+  top: 4px;
+  left: 4px;
+}
+
 .fake{
   pointer-events: none;
 }
