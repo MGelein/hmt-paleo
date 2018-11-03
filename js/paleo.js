@@ -45,7 +45,7 @@ function parseText(){
 
 		//put parts back into the line
 		var urnParts = obs.split(':');
-		lines[i][0] = obs;
+		lines[i][0] = obs;g
 	//	lines[i][0] = obs.substring(0, obs.length - urnParts[urnParts.length - 1].length) + number;
 		lines[i][1] = urn;
 
