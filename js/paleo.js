@@ -6,7 +6,7 @@ function parseText(){
 	var lines = content.split(/\r?\n/);
 	var useDef = false;
 	var def = "";
-	if(lines[0].substr(0, 4) == "urn#"){
+	if(lines[0].substr(0, 4) == "observation#"){
 		useDef = true;
 		def = lines.shift();
 	}
@@ -14,7 +14,6 @@ function parseText(){
 	var counter = {};
 	var obs;
 	var urn;
-	var number = "0";
 	var urnParts;
 	content = "";
 	//break up each of the lines
@@ -29,7 +28,7 @@ function parseText(){
 		//if(i < 9) number = "0" + number;
 
 		//count letter
-		if(urn == undefined) break;
+		if(urn == undefined) continue;
 
 		//clean urn before using
 		urn = urn.replace(/ *\[[^)]*\] */g, "");
